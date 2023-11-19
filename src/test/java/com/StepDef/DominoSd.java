@@ -5,7 +5,7 @@ import com.pom.DominosCheckoutPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.JavascriptExecutor;
+//import org.openqa.selenium.JavascriptExecutor;
 
 import java.io.IOException;
 

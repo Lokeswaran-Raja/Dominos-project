@@ -32,9 +32,9 @@ public class DominosCheckoutPage extends Base {
 //        public By pizza1=By.xpath("//span[text()='Margherita']/following::span[text()='ADD TO CART'][1]");
 //
 ////        public By addOn =By.xpath("(//div[@class=\"injectStyles-sc-1jy9bcf-0 jvymXv\"])[1]");
-        public By pizza2=By.xpath("(//button[@data-label=\"addTocart\"])[17]");
-
-        public By pizza3=By.xpath("(//button[@data-label=\"addTocart\"])[19]");
+//        public By pizza2=By.xpath("(//button[@data-label=\"addTocart\"])[17]");
+//
+//        public By pizza3=By.xpath("(//button[@data-label=\"addTocart\"])[19]");
 
 //        public By pizza1=By.xpath("(//button[@data-label=\"addTocart\"])[19]");
 //
