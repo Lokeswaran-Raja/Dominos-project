@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="37.151">
+<testcase classname="To order in dominos website" name="Add and remove products" time="36.958">
+<system-out><![CDATA[Given launch url............................................................passed
+When User click order online now button.....................................passed
+And User Enter your address and pincode.....................................passed
+And User choose veg pizza section...........................................passed
+And User add pizzas.........................................................passed
+And User choose beverage section............................................passed
+And User add drinks.........................................................passed
+And User removes products...................................................passed
+Then User Checkout..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

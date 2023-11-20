@@ -42,7 +42,7 @@ public class DominosCheckoutPage extends Base {
 //
 //        public By pizza3=By.xpath("(//button[@data-label=\"addTocart\"])[23]");
         public By BeverageSection=By.xpath("//span[.='BEVERAGES']");
-        public By pepsi=By.xpath("(//span[.='ADD TO CART'])[42]");
+        public By pepsi=By.xpath("(//span[.='ADD TO CART'])[52]");
 
         public By removePdt=By.xpath("(//div[@data-label=\"decrease\"])[7]");
 

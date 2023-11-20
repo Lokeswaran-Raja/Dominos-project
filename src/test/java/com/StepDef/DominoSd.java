@@ -35,8 +35,8 @@ public class DominoSd extends Base {
         driver.findElement(checkoutPage.searchArea).sendKeys("6000");
         Thread.sleep(3000);
         driver.findElement(checkoutPage.locateMe).click();
-        Thread.sleep(3000);
-        driver.findElement(checkoutPage.selectLocation).click();
+//        Thread.sleep(3000);
+//        driver.findElement(checkoutPage.selectLocation).click();
 
 
     }
@@ -94,8 +94,9 @@ public class DominoSd extends Base {
     }
 
     @Then("User Checkout")
-    public void user_checkout() throws IOException {
+    public void user_checkout() throws IOException, InterruptedException {
             driver.findElement(checkoutPage.checkOut).click();
+            Thread.sleep(3000);
             screenshot(driver,"TestPassed.png");
 
     }

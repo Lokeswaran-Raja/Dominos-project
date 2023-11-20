@@ -116,8 +116,9 @@ public class Base {
     public static void screenshot(WebDriver driver,String value) throws IOException {
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File screenshotAs = screenshot.getScreenshotAs(OutputType.FILE);
-        File destination = new File("C:\\DominosDemo\\DominoSnap"+value);
+        File destination = new File("C:\\DominosDemo\\DominoSnap\\"+value);
         FileUtils.copyFile(screenshotAs,destination);
+
 
     }
 //
